@@ -7,12 +7,11 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
+#include <math.h>
 #include "heap.h"
 
 /* static functions */
 static void heap_sink(heap_ptr heap_s, int current);
-static int pow(const int num, const int exp);
-static int log2(int num);
 
 heap_ptr heap_build(heap_member *heap, const int count, const int size)
 	/* build a heap using the populated array *heap.
@@ -96,20 +95,4 @@ static void heap_sink(heap_ptr heap_s, int current)
 			heap_sink(heap_s,lower);
 		}
 	}
-}
-
-static int pow(const int num, const int exp)
-{
-	int retval, i;
-	for (i=retval=0;i<exp;i++,retval =retval * num);
-	return(retval);
-}
-
-static int log2(int num)
-{
-	int retval, t;
-	t = num;
-	for (retval=0; t != 0;retval++)
-		t = t / 2;
-	return retval;
 }
