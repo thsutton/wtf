@@ -1,0 +1,55 @@
+COPYING for wtf
+~~~~~~~~~~~~~~~
+The source code, accompanying documentation, build system and any other files
+distributed with wtf is released under the terms of the GNU General Public
+License (Version 2.0 only), a copy of which is provided in the LICENSE file.
+It is and remains copyright of those people to whom it is attributed in the
+AUTHORS file.
+
+The data contained in data/suffixes file was extracted from suffixes(7) on
+Slackware Linux which has the following copyright notice:
+'\" t
+.\" (c) 1993 by Thomas Koenig (ig25@rz.uni-karlsruhe.de)
+.\"
+.\" Permission is granted to make and distribute verbatim copies of this
+.\" manual provided the copyright notice and this permission notice are
+.\" preserved on all copies.
+.\"
+.\" Permission is granted to copy and distribute modified versions of this
+.\" manual under the conditions for verbatim copying, provided that the
+.\" entire resulting derived work is distributed under the terms of a
+.\" permission notice identical to this one
+.\" 
+.\" Since the Linux kernel and libraries are constantly changing, this
+.\" manual page may be incorrect or out-of-date.  The author(s) assume no
+.\" responsibility for errors or omissions, or for damages resulting from
+.\" the use of the information contained herein.  The author(s) may not
+.\" have taken the same level of care in the production of this manual,
+.\" which is licensed free of charge, as they might when working
+.\" professionally.
+.\" 
+.\" Formatted or processed versions of this manual, if unaccompanied by
+.\" the source, must acknowledge the copyright and authors of this work.
+.\" License.
+.\" Modified Sat Jul 24 17:35:15 1993 by Rik Faith <faith@cs.unc.edu>
+.\" Modified Sun Feb 19 22:02:32 1995 by Rik Faith <faith@cs.unc.edu>
+.\" Modified Tue Oct 22 23:28:12 1996 by Eric S. Raymond <esr@thyrsus.com>
+.\" Modified Sun Jan 26 21:56:56 1997 by Ralph Schleicher
+.\"    <rs@purple.UL.BaWue.DE>
+.\" Modified Mon Jun 16 20:24:58 1997 by Nicolás Lichtmaier <nick@debian.org>
+.\" Modified Sun Oct 18 22:11:28 1998 by Joseph S. Myers <jsm28@cam.ac.uk>
+.\" Modified Mon Nov 16 17:24:47 1998 by Andries Brouwer <aeb@cwi.nl>
+.\" Modified Thu Nov 16 23:28:25 2000 by David A. Wheeler
+.\"    <dwheeler@dwheeler.com>
+
+The data contained in data/acronyms was extracted from the acronyms file on a
+Slackware Linux machine and augmented. The original contained the following
+copyright notice:
+    $NetBSD: acronyms,v 1.89 2001/08/11 11:57:35 wennmach Exp $
+and accompanied a Public Domain script, the original wtf(6).
+
+Entries contained in the data files may contain trademarks, trading names,
+copyrighted names, product names, etc. The use of any such names, words or
+phrases in this package is for entirely informational purposes and should not
+be construed as a challenge to the rights of the owner of any such names,
+words and phrases. 

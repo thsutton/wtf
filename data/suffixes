@@ -1,0 +1,208 @@
+.[0-9]+gf	TeX generic font files
+.[0-9]+pk	TeX packed font files
+.[1-9][a-z]	manual page for section plus subsection
+.[1-9]	manual page for the corresponding section
+.ada	Ada source (may be body, spec, or combination)
+.adb	Ada body source
+.ads	Ada spec source
+.ad	X application default resource file
+.afm	PostScript font metrics
+.al	Perl autoload file
+.am	automake(1) input file
+.arc	arc(1) archive
+.arj	arj(1) archive
+.asc	PGP ASCII-armoured data
+.asm	(GNU) assember source file
+.a	static object code library
+.au	Audio sound file
+.aux	LaTeX auxiliary file
+.avi	(msvideo) movie
+.awk	AWK language program
+.bak	backup file
+.bash	bash(1) shell script
+.bb	basic block list data produced by
+.bbg	basic block graph data produced by
+.bbl	BibTeX output
+.bdf	X font file
+.bib	TeX bibliographic database, BibTeX input
+.b	LILO boot loader image
+.bm	bitmap source
+.bmp	bitmap
+.bz2	file compressed using bzip2(1)
+.cat	message catalog files
+.cc	C++ source
+.c	C source
+.C	C++ source code, equivalent to .cc
+.cf	configuration file
+.cfg	configuration file
+.cgi	WWW content generating script or program
+.class	Java compiled byte-code
+.cls	LaTeX Class definition
+.conf	configuration file
+.config	configuration file
+.cpp	equivalent to .cc
+.csh	csh(1) shell script
+.cxx	equivalent to .cc
+.dat	data file
+.deb	Debian software package
+.def	Modula-2 source for definition modules
+.def	other definition files
+.desc	initial part of mail message unpacked with munpack(1)
+.diff	file differences (diff(1) command output)
+.dir	dbm data base directory file
+.doc	documentation file
+.dsc	Debian Source Control (source package)
+.dtx	LaTeX package source file
+.dvi	TeX's device independent output
+.elc	compiled Emacs-Lisp source
+.el	Emacs-Lisp source
+~	Emacs or patch(1) backup file
+.eps	encapsulated PostScript
+.exp	Expect source code
+.f77	Fortran 77 source
+.f90	Fortran 90 source
+.fas	pre-compiled Common-Lisp
+.f	Fortran source
+.F	Fortran source with cpp(1) directives or file compressed using freeze
+.fi	Fortran include files
+.fig	FIG image file (used by xfig(1))
+.fmt	TeX format file
+.gif	Compuserve Graphics Image File format
+.gmo	GNU format message catalog
+.gsf	Ghostscript fonts
+.gz	file compressed using gzip(1)
+.h	C or C++ header files
+.help	help file
+.hf	equivalent to .help
+.hlp	equivalent to .help
+.hqx	7-bit encoded Macintosh file
+.html	HTML document used with the World Wide Web
+.htm	poor man's .html
+.icon	bitmap source
+.i	C source after preprocessing
+.idx	reference or datum-index file for hypertext
+.image	bitmap source
+.in	configuration template, especially for GNU Autoconf
+.info-[0-9]+	splitted info files
+.info	files for the Emacs info browser
+.ins	LaTeX package install file for docstrip
+.itcl	itcl source code; itcl ([incr Tcl]) is an OO extension of tcl
+.java	a Java source file
+.jpeg	Joint Photographic Experts Group format
+.jpg	poor man's .jpeg
+.kmap	lyx(1) keymap
+.l	equivalent to .lex or .lisp
+.lex	lex(1) or flex(1) files
+.lha	lharc archive
+.lib	Common-Lisp library
+.lisp	Lisp source
+.ln	files for use with lint(1)
+.log	log file, in particular produced by TeX
+.lsm	Linux Software Map entry
+.lsp	Common-Lisp source
+.lzh	lharc archive
+.m4	m4(1) source
+.mac	macro files for various programs
+.man	manual page (usually source rather than formatted)
+.map	map files for various programs
+.me	Nroff source using the me macro package
+.mf	Metafont (font generator for TeX) source
+.mgp	MagicPoint file
+.mm	sources for groff(1) in mm - format
+.m	Objective-C source code
+.mod	Modula-2 source for implementation modules
+.mo	Message catalog binary file
+.mov	(quicktime) movie
+.mp2	MPEG Layer 2 (audio) file
+.mp3	MPEG Layer 3 (audio) file
+.mpeg	movie file
+.mp	Metapost source
+.old	old or backup file
+.o	object file or database system
+.orig	backup (original) version of a file, from patch(1)
+.out	output file, often executable program (a.out)
+.pag	dbm data base data file
+.patch	file differences for patch(1)
+.pbm	portable bitmap format
+.pcf	X11 font files
+.pdf	Adobe Portable Data Format (use Acrobat/acroread or xpdf)
+.perl	Perl source (see .ph, .pl and .pm)
+.pfa	PostScript font definition files, ASCII format
+.pfb	PostScript font definition files, binary format
+.pgm	portable greymap format
+.pgp	PGP binary data
+.php3	PHP3 program file
+.ph	Perl header file
+.php	PHP program file
+.pid	File to store daemon pid (e.g. crond.pid)
+.pl	TeX property list file or Perl library file
+.pm	Perl module
+.png	Portable Network Graphics file
+.pod	perldoc(1) file
+.po	Message catalog source
+.p	Pascal source
+.ppm	portable pixmap format
+.pr	bitmap source
+.ps	PostScript file
+.pyc	compiled python
+.py	Python source
+.qt	quicktime movie
+rc	startup (`run control') file, e.g. .newsrc
+.rej	patches that patch(1) couldn't apply
+.rpm	RedHat software package
+.r	RATFOR source (obsolete)
+.rtf	Rich Text Format file
+.rules	rules for something
+.s	assembler source
+.S	assembler source with cpp(1) directives
+.sa	stub libraries for a.out shared libraries
+.scm	Scheme source code
+.sc	sc(1) spreadsheed commands
+.sed	sed source file
+.sgml	SGML source file
+.shar	archive created by the shar(1) utility
+.sh	sh(1) scripts
+.so	Shared library or dynamically loadable object
+.sql	SQL source
+.sqml	SQML schema or query program
+.sty	LaTeX style files
+.sym	Modula-2 compiled definition modules
+.tar	archive created by the tar(1) utility
+.tar.bz2	tar(1) archive compressed with bzip2(1)
+.tar.gz	tar(1) archive compressed with gzip(1)
+.tar.Z	tar(1) archive compressed with compress(1)
+.taz	tar(1) archive compressed with compress(1)
+.tcl	tcl source code
+.texi	equivalent to .texinfo
+.texinfo	Texinfo documentation source
+.tex	TeX or LaTeX source
+.text	text file
+.tfm	TeX font metric file
+.tgz	tar archive compressed with gzip(1)
+.tiff	Tagged Image File Format
+.tif	poor man's .tiff
+.tk	tcl/tk script
+.tmpl	template files
+.tmp	temporary file
+.txt	equivalent to .text
+.uue	binary file encoded with uuencode(1)
+.uu	equivalent to .uue
+,v	files for RCS (Revision Control System)
+.vf	TeX virtual font file
+.vpl	TeX virtual property list file
+.wav	wave sound file
+.web	Donald Knuth's WEB
+.wml	Source file for Web Meta Language
+.w	Silvio Levi's CWEB
+.xbm	X11 bitmap source
+.xcf	GIMP graphic
+.xml	eXtended Markup Language file
+.xpm	X11 pixmap source
+.xsl	XSL stylesheet
+.xs	Perl xsub file produced by h2xs
+.Y	file compressed using yabba
+.y	yacc(1) or bison(1) (parser generator) files
+.Z	file compressed using compress(1)
+.z	File compressed using pack(1) (or an old gzip(1))
+.zip	zip(1) archive
+.zoo	zoo(1) archive

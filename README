@@ -1,0 +1,27 @@
+README for wtf
+~~~~~~~~~~~~~~
+This program is intended to be a replacement for the wtf(6) command found on
+NetBSD (1.5+), Slackware Linux and possibly others. It is written in C and
+uses a binary index file somewhat similar, conceptually at least, to that used
+by strfile(8) and fortune(6).
+
+It supports multiple databases and user specific directories and will search
+each database in its both data directories until it runs out of databases or
+finds a match.
+
+The index builder in this version no longer requires the text datafiles to be
+presorted.
+
+It SHOULD be relatively stable and bug free, but is not yet finished and has
+NOT been audited for bugs and security holes. This version is it-works-for-me
+quality software.
+
+There is not reason to install this software SUID/SGID. Indeed to do so would
+be foolhardy in the extreme.
+
+Please read the notices in the COPYRIGHT file as it contains important
+information which may affect the distribution of this package or parts
+thereof.
+
+Any comments, suggestions or patches are welcome at the address specified in
+the AUTHORS file.

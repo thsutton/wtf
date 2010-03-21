@@ -1,0 +1,21 @@
+NEWS for wtf
+~~~~~~~~~~~~
+20030824  - Version 0.0.4 [Public]
+    + Bug fixes (Thanks to Igor Pechtchanski).
+    + Added wtfdump to list databases.
+	+ Uses $WTFPATH if it exists.
+	+ Command line -a flag returns all matches found.
+
+20030620 - Version 0.0.3 [Public]
+    + Now searches user directory ($HOME/.wtf), if it exists, before the
+      system-wide directory.
+    
+20030618 - Version 0.0.2 [Internal]
+    + No longer breaks with unsorted text files.
+    + Now searches all files (With an index file) in compile-time configured
+      directory.
+    + Still probably buggy as hell and not as fast as it could be :-)
+    + A saner set of Makefiles.
+
+20030616 - Version 0.0.1 [Public]
+    + Basic functionality 

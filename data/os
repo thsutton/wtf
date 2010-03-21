@@ -1,0 +1,8 @@
+Linux	A UNIX-like operating system kernel built by volunteers. http://www.kernel.org
+BSD	A variety of UNIX. See also: FreeBSD, OpenBSD, NetBSD
+FreeBSD	A freely available BSD based operating system. http://www.freebsd.org
+OpenBSD A freely available BSD based operating system with a focus on security. http://www.openbsd.org
+NetBSD	A very portable, freely available BSD based operating system. http://www.netbsd.org
+Cygwin	A POSIX emulation layer on top of Windows.
+Windows	A proprietary operating system from Microsoft.
+

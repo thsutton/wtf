@@ -1,0 +1,12 @@
+CREDITS for wtf
+~~~~~~~~~~~~~~~
+Cygwin maintainer and patch contributor:
+	Igor Pechtchanski 
+	<pechtcha at cs dot nyu dot edu>
+
+The wtf package was written by:
+    Thomas Sutton 
+	<thsutton at utas dot edu dot au)
+
+Other implementations of wtf(6) include the shell script version included in
+NetBSD in version 1.5 and later.

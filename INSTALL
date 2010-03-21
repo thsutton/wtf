@@ -1,0 +1,15 @@
+INSTALL for wtf
+~~~~~~~~~~~~~~~
+By default, wtf is installed under the /usr/local heirachy. This can be
+changed by modifying the line:
+    prefix = /usr/local
+in the Makefile in the top directory.
+
+To install wtf, wtfindex and the data files:
+  $ tar xjf wtf-0.0.4.tar.bz2
+  $ cd wtf-0.0.4
+  <modify Makefile if needed>
+  $ make
+  $ su
+  <enter root password>
+  # make install

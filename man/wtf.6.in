@@ -1,0 +1,118 @@
+.\"
+.\" wtf.7 -    man page for wtf and wtfindex.
+.\" 
+.\" (c) Thomas Sutton <thsutton>, 2003
+.\"
+.Dd August 24, 2003
+.Os GAMES
+.Dt WTF 6
+.Sh NAME
+.Nm wtf
+.Nd translates acronyms and filename suffixes for you.
+.br
+.Nm wtfindex
+.Nd builds string file indexes for
+.Nm wtf .
+.br
+.Nm wtfdump
+.Nd lists the contents of a 
+.Nm wtf
+database.
+.Sh SYNOPSIS
+.Nm 
+.Op Fl a
+.Op Ar is
+.Ar pattern
+.br
+.Nm wtfindex
+.Ar filename
+.br
+.Nm wtfdump
+.Ar filename
+
+.\" .Op Ar output.dat
+
+.Sh DESCRIPTION
+The
+.Nm
+program looks-up the definition of a term. It supports a number of definition
+sources. In this version they are an acronyms database and a filename suffixes
+database.
+
+Like the 
+.Nx 1.5
+version of 
+.Nm , this version will ignore an 
+.Dq is 
+given on the command line, allowing the more natural usage:
+.Nm 
+.Ar is
+.Ar wtf .
+
+Like
+.Xr man ,
+.Nm 
+will display all matches found when the 
+.Fl a
+flag is given on the command line.
+
+The 
+.Nm wtfindex
+program builds an index of the entries in
+.Ar filename .
+This index is written to
+.Ar filename.dat .
+.Ar filename
+must contain a series of lines. Each line should consist of a key (the term
+being defined) and a value (the definition) separated by a single tab
+character, and should be terminated by a newline character. 
+
+The 
+.Nm wtfdump
+program lists the entries in 
+.Ar filename 
+in ascending order.
+
+
+.Sh FILES
+.Bl -tag -width DATADIR -compact
+.It Pa DATADIR
+System-wide directory to search for data files.
+
+.It Pa $HOME/.wtf
+User specific directory to search for data files.
+
+.Sh ENVIRONMENT
+.Bl -tag -width WTFPATH -compact
+.It Pa WTFPATH
+Semi-colon delimited list of directories to be searched.
+
+.Sh SEE ALSO
+.Xr fortune 6 ,
+.Xr whatis 1 ,
+.Xr wtf 6 ,
+.Xr sort 1
+
+.Sh BUGS
+The index files are not transportable across machines of different endian-ness
+and/or with different sizes of 
+.Ar unsigned long .
+
+The command-line argument handling code is very rudimentary.
+
+No doubt there are a great many more. If you find any, please squash them and
+send the pieces to the author.
+
+.Sh HISTORY
+.Nm 
+first appeared in 
+.Nx 1.5 .
+.br
+This version of 
+.Nm
+was created on Slackware Linux 9.0.0
+
+.Sh AUTHOR
+.nf
+Thomas Sutton
+(thsutton@utas.edu.au)
