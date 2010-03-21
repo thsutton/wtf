@@ -8,19 +8,21 @@ WTFINDEXOBJECTS = heap.o wtfindex.o wtfindex-help.o
 WTFDUMPOBJECTS = wtfdump.o wtfdump-help.o file.o
 OBJECTS = $(WTFOBJECTS) $(WTFINDEXOBJECTS) $(WTFDUMPOBJECTS)
 
+LDFLAGS = -lm
+
 all : $(PROGRAMS)
 
 conf.h : 
 	sed -e "s:DATADIR:$(DATADIR):" conf.h.in > conf.h
 
 wtf${exeext} : conf.h $(WTFOBJECTS)
-	$(CC) $(WTFOBJECTS) -o wtf
+	$(CC) $(LDFLAGS) $(WTFOBJECTS) -o wtf
 
 wtfindex${exeext} : $(WTFINDEXOBJECTS)
-	$(CC) $(WTFINDEXOBJECTS) -o wtfindex
+	$(CC) $(LDFLAGS) $(WTFINDEXOBJECTS) -o wtfindex
 
-wtfdump${exeext}:	$(WTFDUMPOBJECTS)
-	$(CC) $(WTFDUMPOBJECTS) -o wtfdump
+wtfdump${exeext}: $(WTFDUMPOBJECTS)
+	$(CC) $(LDFLAGS) $(WTFDUMPOBJECTS) -o wtfdump
 
 clean:
 	rm -f $(OBJECTS) $(PROGRAMS) conf.h
