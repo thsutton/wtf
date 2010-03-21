@@ -1,6 +1,7 @@
 # Until I can figure out how to use autoconf and automake, this will have to
 # do. Just point prefix at where you want it installed. The default should be
 # good for most systems.
+
 prefix = /usr/local
 exeext =
 DESTDIR =

@@ -1,8 +1,14 @@
 TODO for wtf
-~~~~~~~~~~~~
+============
+
 The following items are in semi-order of importance:
-  - Make the indexer work properly on empty files.
-  - Make the argument handling code in wtf.c work properly.
-  - Clean up code. It's all rather messy.
-  - Fix/add and test bounds checking on I/O operations, especially seeking.
-  - Use autoconf and automake?
+
+- Make the indexer work properly on empty files.
+
+- Make the argument handling code in `wtf.c` work properly.
+
+- Clean up code. It's all rather messy.
+
+- Fix/add and test bounds checking on I/O operations, especially seeking.
+
+- Use autoconf and automake?

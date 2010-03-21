@@ -1,5 +1,6 @@
 README for wtf
-~~~~~~~~~~~~~~
+==============
+
 This program is intended to be a replacement for the wtf(6) command found on
 NetBSD (1.5+), Slackware Linux and possibly others. It is written in C and
 uses a binary index file somewhat similar, conceptually at least, to that used
@@ -9,8 +10,8 @@ It supports multiple databases and user specific directories and will search
 each database in its both data directories until it runs out of databases or
 finds a match.
 
-The index builder in this version no longer requires the text datafiles to be
-presorted.
+The index builder in this version no longer requires the text data files to be
+pre-sorted.
 
 It SHOULD be relatively stable and bug free, but is not yet finished and has
 NOT been audited for bugs and security holes. This version is it-works-for-me
