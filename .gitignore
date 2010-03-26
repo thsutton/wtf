@@ -1,0 +1,7 @@
+src/conf.h
+*.o
+src/wtf
+src/wtfdump
+src/wtfindex
+data/*.dat
+man/*.gz
