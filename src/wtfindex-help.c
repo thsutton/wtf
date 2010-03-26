@@ -12,10 +12,10 @@
 
 char *usage(char *argv0)
 {
-        /* FIXME: check for errors */
-	int size = (strlen(argv0) + strlen("Usage:  <string file>") + 2);
+    /* FIXME: check for errors */
+    int size = (strlen(argv0) + strlen("Usage:  <string file>") + 2);
         
-        char *usage = (char*)malloc(size);
-	snprintf(usage,size,"Usage: %s <string file>",argv0);
-	return usage;
+    char *usage = (char*)malloc(size);
+    snprintf(usage,size,"Usage: %s <string file>",argv0);
+    return usage;
 }

@@ -1,8 +1,9 @@
-/*
- * file.h -    Header file for datafile stuff.
+/** @file
+ * Function prototypes, type declarations and other public code for handling
+ * data files.
  *
- * (c) Thomas Sutton <thsutton@utas.edu.au>, 2003.
- * This program is released under the terms of the GNU General Public License.
+ * @author Thomas Sutton <me@thomas-sutton.id.au>
+ * @created 2003
  */
 
 #ifndef __HAVE_FILE_H
