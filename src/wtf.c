@@ -20,10 +20,6 @@
 #include "help.h"
 #include "conf.h"
 
-knsadfsdfa
-
-
-
 #define OPTION_ALL 1
 #define OPTION_USER 2
 
