@@ -1,4 +1,7 @@
-src/conf.h
+.DS_Store
+._*
+*~
+/src/conf.h
 *.o
 src/wtf
 src/wtfdump
